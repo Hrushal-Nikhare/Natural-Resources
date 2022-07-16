@@ -2,6 +2,14 @@
 npx tailwindcss -i raw.css -o style.css --watch
 */
 
+.title{
+  font-family: 'Varela Round', sans-serif;
+}
+
+body{
+  font-family: 'League Spartan', sans-serif;
+}
+
 credits{
   display: flex;
   justify-content: center;
