@@ -3,12 +3,17 @@
 npx tailwindcss -i raw.css -o style.css --watch
 */
 credits{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* credits{
     padding: 1rem;
-    padding-left: 40%;
-    padding-right:40%;
+    padding-left: 35%;
+    padding-right:35%;
     text-align:center;
     width: 100%;
-}
+} */
 credits a{
     color: rgb(182, 97, 97);
 
