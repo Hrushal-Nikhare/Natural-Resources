@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Varela+Round&display=swap');
 /*  
 npx tailwindcss -i raw.css -o style.css --watch
 */
@@ -8,7 +8,7 @@ npx tailwindcss -i raw.css -o style.css --watch
 body{
   font-family: 'League Spartan', sans-serif;
 }
-credits{
+.credits{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,7 @@ credits{
     transparent
   );
 }
-credits a{
+.credits a{
     color: rgb(182, 97, 97);
 
 }
